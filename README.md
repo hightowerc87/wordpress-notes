@@ -134,13 +134,7 @@ $parent = new WP_Query( $args );
 if ($parent-&gt;have_posts()) : while ($parent-&gt;have_posts()) : $parent-&gt;the_post(); ?&gt;
     &lt;li&gt;&lt;a href="&lt;?php the_permalink(); ?&gt;/"&gt;&lt;?php the_title(); ?&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;?php endwhile; endif; wp_reset_query(); ?&gt;</pre>
-<h2>Create basic wp_nav_menu();</h2>
-Calls a menu by name saved in the Menu settings. menu_class adds classes to the &lt;ul&gt; tag generated. Documentation at <a href="https://developer.wordpress.org/reference/functions/wp_nav_menu/" target="_blank">https://developer.wordpress.org/reference/functions/wp_nav_menu/</a>
-<pre>&lt;?php 
 
-    wp_nav_menu( array( 'menu' =&gt; 'Main Menu', 'menu_class' =&gt; 'nav navbar-nav' ) ); 
-
-?&gt;</pre>
 <h2>Create custom link in wp_nav_menu that always links to most recent blog post</h2>
 <pre>// Adds a filter to a nav menu item with link to #latestpost. Will always link to the most recent post
 // Front end only, don't hack on the settings page

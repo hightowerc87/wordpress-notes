@@ -2,9 +2,6 @@
 A poorly organized collection of Wordpress notes and code
 
 
-
-
-
 WP Code
 
 <h2><strong>Content Editor Image Fix</strong></h2>
@@ -582,11 +579,6 @@ Remember to label the even appropriately, if it is linking to Facebook in the he
 
 
 WP Plugins
-
-<h2>Huge IT Lightbox</h2>
-Make a gallery and set the pictures to link to themselves ("Media File"). Lightbox should appear on click. You can change the lightbox style in the plugin settings.
-
-<a href="https://wordpress.org/plugins/lightbox/">https://wordpress.org/plugins/lightbox/</a>
 <h2>Above the Fold Optimization</h2>
 <a href="https://wordpress.org/plugins/above-the-fold-optimization/" target="_blank">https://wordpress.org/plugins/above-the-fold-optimization/</a>
 
@@ -608,13 +600,3 @@ Found a bit of code that disables the "Read More" link if the post isn't actuall
  return true;
 }
 add_filter( 'advanced_excerpt_disable_add_more', 'ca_only_add_more_when_required', 10, 3 );</pre>
-<h2>Scroll animations</h2>
-Script that helps with adding css animations to the page on scroll.
-<a href="http://mynameismatthieu.com/WOW/">http://mynameismatthieu.com/WOW/</a>
-Add this css to prevent flash of content on load
-<pre>.wow {
-  visibility: hidden;
-}
-</pre>
-<h2>Hide YouTube Related Videos</h2>
-Automatic sitewide hides related videos at the end of YouTube embeds of any type. Lightweight, easy to install.

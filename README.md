@@ -544,17 +544,7 @@ Add your numbers into the new search query url
 <blockquote>https://www.google.com/search?q=(<strong>Add the search text here</strong>)&amp;ludocid=(<strong>ludocid number here</strong>)#lrd=(<strong>lrd number here</strong>),3,5</blockquote>
 The url will now look like this, and a five star review will populate the page.
 <blockquote>https://www.google.com/search?q=Dr.+Julie+Phillips+Prosthodontics&amp;  ludocid=10332763409006310141# lrd=0x88531ed2d17eac7b: 0x8f6559933df9b2fd,3,5</blockquote>
-<h2>Adding Title Tags</h2>
-Variations should be used to have the titles stay under 55 characters.
-<blockquote>For the Homepage you might use
-Full Company Name | City, State</blockquote>
-Here are examples of variations you can use.
-<blockquote>"Name of Page" Company Name in City, State
-"Name of Page" | Company Name in City, State
-"Name of Page" | Company Name in City</blockquote>
-<h2>Adding ALT Tags</h2>
-<blockquote>Bad Example: alt="Picture of a student"
-Good Example: alt="A postgraduate enginerring student working in the new election mimicroscop lab"</blockquote>
+
 <h2>SEO Issues</h2>
 Canonical Link issue. Two pages that are from the same page with different links. Add this link tag inside "head" tag before the &lt;link rel="stylesheet" /&gt;
 <blockquote>&lt;link rel="canonical" href="http://example.com/" /&gt;</blockquote>
